@@ -2,10 +2,10 @@
   "name": "khoa_hoc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   "homepage": "https://github.com/nhatktpm/khoa_hoc#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "handlebars": "^4.7.6",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
   }
 }
